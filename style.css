@@ -1,0 +1,141 @@
+body {
+    /* background-color: #d8ebbc; */
+    background-image: url(f.webp);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: orangered;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li {
+    float: left;
+    color: black;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn.btn-login {
+    color: white;
+    background-color: orangered;
+    border: 1px solid #e56a17;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    font-size: large;
+}
+.btn.btn-login:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.editing {
+    color: orangered;
+    background-color: black;
+    border: 1px solid #e56a17;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+}
+.editing:hover{
+    background-color: orangered;
+    color:black;
+    ;
+}
+img {
+    width: 130px;
+    height: auto;
+    margin: 10px;
+    transition: all 2s;
+    border-radius: 8px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    box-shadow: 7px 6px 6px #a0a4a7;
+}
+#btnYellow{
+    width: 100px;
+     height: 30px;
+     background-color:rgb(204, 164, 32);
+}
+#btnPink{
+    width: 100px;
+     height: 30px;
+     background-color:rgb(36, 120, 189);
+}
+#btn3Blue{
+    width: 100px;
+     height: 30px;
+     background-color:rgb(4, 41, 206);
+}
+#btn4Green{
+    width: 100px;
+     height: 30px;
+     background-color:rgb(44, 214, 236);
+}
+#btn4Purple{
+    width: 100px;
+     height: 30px;
+     background-color:rgb(236, 234, 97);
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+#end{
+    height: 200px;
+    width: 300px;
+    border: dashed black;
+}
